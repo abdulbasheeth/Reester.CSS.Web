@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Crimson Pro", serif;
+    font-size: 30px;
+
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.section-two__box1,
+.section-two__box2,
+.section-two__box3,
+.section-two__box4 {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.section-two__box1 img,
+.section-two__box2 img,
+.section-two__box3 img,
+.section-two__box4 img {
+    width: 350px;
+    height: 350px;
+}
+
+.section-two__box1 p,
+.section-two__box2 p,
+.section-two__box3 p,
+.section-two__box4 p {
+    width: 350px;
+    text-align: center;
+}
+
+.section-two__box1 h4,
+.section-two__box2 h4,
+.section-two__box3 h4,
+.section-two__box4 h4 {
+
+    text-align: center;
+}
+
+.section-two__box1 button,
+.section-two__box2 button,
+.section-two__box3 button,
+.section-two__box4 button {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin-top: 7px;
+    height: auto;
+}
+
+.section-three__contactform{
+             background-color: black;
+             width: 100%;
+             height: 100%;
+             color: white;
+             margin-top: 25px;
+             text-align: center;
+             
+}
+.section-three__tableform{
+    display: inline-block;
+    justify-items: center;
+}
+
+
+.section-three__btn{
+
+    display:inline-block; 
+    justify-items: center;
+    font-size: 25px;
+     color: black;
+    padding-left: 350px;
+    padding-right: 350px;
+    background-color: yellow; 
+    margin-top: 15px;     
+}
+
+.section-three__input{
+      font-size: 20px;
+      padding-left: 10px;
+
+      
+          
+}
